@@ -30,6 +30,8 @@ main {
     justify-content: center;
     padding: 20px 30px;
     background-color: #000000e7;
+    max-width: 350px;
+    min-width: 350px;
     
 }
 
@@ -38,7 +40,12 @@ main {
     border: 1px solid rgba(255, 255, 255, 0.247);
     border-radius: 10px;
     display: flex;
-    padding: 18px;
+    padding: 12px;
+    justify-content: space-between;
+    width: 85%;
+}
+.input input{
+    width: 100%;
 }
 
 .input label {
@@ -50,9 +57,9 @@ main {
     border-radius: 10px;
     color: #FFF;
     font-size: 18px;
-    height: 10%;
+    font-style: italic;
     padding: 18px;
-    width: 100%;
+    word-wrap: break-word;
 }
 
 button {
@@ -62,7 +69,6 @@ button {
     font-size: 16px;
     padding: 10px 50px;
     text-transform: lowercase;
-    width: 100%;
 }
 button:hover {
     background-color: #000;
